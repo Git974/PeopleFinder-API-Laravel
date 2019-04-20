@@ -3,6 +3,7 @@
 These Restful APIs are developed using Laravel Framework.
 
 Use these to access APIs endpoints:
+
 You need to provide the 'X-API-Key' in headers with its token value to access following endpoints
 
 
