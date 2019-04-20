@@ -2,7 +2,11 @@
 
 These Restful APIs are developed using Laravel Framework.
 
-Use these routes to access APIs endpoints:
+Use these to access APIs endpoints:
+# You need to provide the 'X-API-Key' on header with its token value to access following endpoints
+
+
+# Use these endpoints to fetch existing record
 
 {
 
@@ -22,67 +26,130 @@ Use these routes to access APIs endpoints:
     
     'api/images' : "It will return all the images",
     
-    'api/personlocations' : "It will return all the detected personlocations"
+    'api/personlocations' : "It will return all the detected person locations"
     
   },
   
   "Specific Record" : {
+  
     'api/admins/{id}' : "It will return the admin that would match the id",
+    
     'api/users/{id}'  : "It will return all the user that would match the id",
+    
     'api/missingpersons/{id}' : "It will return all the missing person that would match the id",
+    
     'api/locations/{id}' : "It will return all the location that would match the id",
+    
     'api/notifications/{id}' : "It will return all the notification that would match the id",
+    
     'api/images/{id}' : "It will return all the image that would match the id",
-    'api/personlocations/{id}' : "It will return all the detected personlocation that would match the id"
-  }
+    
+    'api/personlocations/{id}' : "It will return all the detected person location that would match the id"
+    
+  },
+  
   "Searched Records" : {
+  
     'api/missingpersons/{id}/personlocations' : "It will return the location where person was detected along with detected time",
+    
     'api/missingpersons/name/{firstName}' : "It will return all the missing persons that have given first name",
+    
     'api/missingpersons/cnic/{cnic}' : "It will return the missing person who has given cnic",
+    
     'api/missingpersons/age/{age}' : "It will return all the missing persons that have given age",
+    
     'api/missingpersons/{id}/images' : "It will return the image record that is associated with that missing person",
+    
     'api/users/{id}/notifications' : "It will return all the notifications associated with that user",
+    
     'api/users/username/{username}' : "It will return user who has given username"
+    
   } 
-},
-{
-  "Request Type" : "POST",
-  "Create Record" : {
-    'api/admins' : "It will create the admins",
-    'api/users'  : "It will create the users",
-    'api/missingpersons' : "It will create the missing persons",
-    'api/locations' : "It will create the locations",
-    'api/notifications' : "It will create the notifications",
-    'api/images' : "It will create the images",
-    'api/personlocations' : "It will create the detected personlocations"
-  }
+  
 }
 
 
-Route::post('admins', 'AdminController@store')->name('add_admin');
-Route::post('users', 'UserController@store')->name('add_user');
-Route::post('missingpersons', 'MissingPersonController@store')->name('add_missingperson');
-Route::post('locations', 'LocationController@store')->name('add_location');
-Route::post('notifications', 'NotificationController@store')->name('add_notification');
-Route::post('images', 'ImageController@store')->name('add_image');
-Route::post('personlocations', 'PersonLocationController@store')->name('add_personlocation');
+# Use these endpoints to create new record
+# You also need to provide the data in json format
+
+{
+
+  "Request Type" : "POST",
+  
+  "Create Record" : {
+  
+    'api/admins' : "It will create the admin",
+    
+    'api/users'  : "It will create the user",
+    
+    'api/missingpersons' : "It will create the missing person",
+    
+    'api/locations' : "It will create the location",
+    
+    'api/notifications' : "It will create the notification",
+    
+    'api/images' : "It will create the image",
+    
+    'api/personlocations' : "It will create the detected person location"
+    
+  }
+  
+}
 
 
 
-Route::put('admins/{admin}', 'AdminController@update')->name('update_admin');
-Route::put('users/{user}', 'UserController@update')->name('update_user');
-Route::put('missingpersons/{missingPerson}', 'MissingPersonController@update')->name('update_missingperson');
-Route::put('locations/{location}', 'LocationController@update')->name('update_location');
-Route::put('notifications/{notification}', 'NotificationController@update')->name('update_notification');
-Route::put('images/{image}', 'ImageController@update')->name('update_image');
-Route::put('personlocations/{personLocation}', 'PersonLocationController@update')->name('update_personlocation');
+# Use these endpoints to update record
+# You also need to provide the data in json formate
+
+{
+
+  "Request Type" : "PUT",
+  
+  "Update Record" : {
+  
+    'api/admins/{id}' : "It will update the admin record",
+    
+    'api/users/{id}'  : "It will update the user record",
+    
+    'api/missingpersons/{id}' : "It will update the missing person record",
+    
+    'api/locations/{id}' : "It will update the location record",
+    
+    'api/notifications/{id}' : "It will update the notification record",
+    
+    'api/images/{id}' : "It will update the image record",
+    
+    'api/personlocations/{id}' : "It will update the person location record"
+    
+  }
+  
+}
 
 
 
-Route::delete('admins/{admin}', 'AdminController@delete')->name('delete_admin');
-Route::delete('users/{user}', 'UserController@delete')->name('delete_user');
-Route::delete('missingpersons/{missingPerson}', 'MissingPersonController@delete')->name('delete_missingperson');
-Route::delete('locations/{location}', 'LocationController@delete')->name('delete_location');
-Route::delete('notifications/{notification}', 'NotificationController@delete')->name('delete_notification');
-Route::delete('images/{image}', 'ImageController@delete')->name('delete_image');
-Route::delete('personlocations/{personLocation}', 'PersonLocationController@delete')->name('delete_personlocation');
+# Use these to delete record
+
+{
+
+  "Request Type" : "DELETE",  
+  
+  "Delete Record" : {
+  
+    'api/admins/{id}' : "It will delete the admin record",
+    
+    'api/users/{id}'  : "It will delete the user record",
+    
+    'api/missingpersons/{id}' : "It will delete the missing person record",
+    
+    'api/locations/{id}' : "It will delete the location record",
+    
+    'api/notifications/{id}' : "It will delete the notification record",
+    
+    'api/images/{id}' : "It will delete the image record",
+    
+    'api/personlocations/{id}' : "It will delete the person location record"
+    
+  }
+  
+}
+
