@@ -3,7 +3,7 @@
 These Restful APIs are developed using Laravel Framework.
 
 Use these to access APIs endpoints:
-You need to provide the # 'X-API-Key' # in headers with its token value to access following endpoints
+You need to provide the 'X-API-Key' in headers with its token value to access following endpoints
 
 
 # Use these endpoints to fetch existing record
@@ -70,7 +70,7 @@ You need to provide the # 'X-API-Key' # in headers with its token value to acces
 
 
 # Use these endpoints to create new record
-# You also need to provide the data in json format
+You also need to provide the data in json format
 
 {
 
@@ -99,7 +99,7 @@ You need to provide the # 'X-API-Key' # in headers with its token value to acces
 
 
 # Use these endpoints to update record
-# You also need to provide the data in json formate
+You also need to provide the data in json formate
 
 {
 
