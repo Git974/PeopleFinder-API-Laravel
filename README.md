@@ -5,16 +5,27 @@ These Restful APIs are developed using Laravel Framework.
 Use these routes to access APIs endpoints:
 
 {
+
   "Request Type" : "GET",
+  
   "All Records" : {
+  
     'api/admins' : "It will return all the admins",
+    
     'api/users'  : "It will return all the users",
+    
     'api/missingpersons' : "It will return all the missing persons",
+    
     'api/locations' : "It will return all the locations",
+    
     'api/notifications' : "It will return all the notifications",
+    
     'api/images' : "It will return all the images",
+    
     'api/personlocations' : "It will return all the detected personlocations"
+    
   },
+  
   "Specific Record" : {
     'api/admins/{id}' : "It will return the admin that would match the id",
     'api/users/{id}'  : "It will return all the user that would match the id",
