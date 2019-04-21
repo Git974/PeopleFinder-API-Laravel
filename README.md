@@ -1,4 +1,4 @@
-# People_Finder_API_Laravel
+# PeopleFinder APIs in Laravel
 
 These Restful APIs are developed using Laravel Framework.
 
