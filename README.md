@@ -63,8 +63,6 @@ You also need to provide the data in json format
 
 -  "Request Type" : "POST"
 
-<br>
-
 -    ```api/admins``` : "It will create the admin"    
 -    ```api/users```  : "It will create the user"   
 -    ```api/missingpersons``` : "It will create the missing person"
@@ -79,8 +77,6 @@ You also need to provide the data in json formate
 
 -  "Request Type" : "PUT"
 
-<br>
-
 -    ```api/admins/{id}``` : "It will update the admin record" 
 -   ```api/users/{id}```  : "It will update the user record"
 -   ```api/missingpersons/{id}``` : "It will update the missing person record"    
@@ -92,8 +88,6 @@ You also need to provide the data in json formate
 ### To delete record
 
 -  Request Type : "DELETE"  
-
-<br>
 
 -    ```api/admins/{id}``` : "It will delete the admin record"   
 -    ```api/users/{id}```  : "It will delete the user record" 
