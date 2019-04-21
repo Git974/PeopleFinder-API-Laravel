@@ -4,7 +4,7 @@ These Restful APIs are developed using Laravel Framework.
 
 Use these to access APIs endpoints:
 
-You need to provide the 'X-API-Key' in headers with its token value to access following endpoints
+You need to provide the ```X-API-Key``` in headers with its token value to access following endpoints
 
 
 # Use these endpoints to fetch existing record
@@ -189,6 +189,6 @@ Some responses from endpoints will be in form of pagination so try to use these 
 
 - Open Your Terminal
 - Go to your project directory
-- run the command 'php artisan migrate'
+- run the command ```php artisan migrate```
 - Now you are ready to go!
 
