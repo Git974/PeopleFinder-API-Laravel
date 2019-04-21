@@ -3,7 +3,7 @@
 These Restful APIs are developed using Laravel Framework.
 
 
-# How to Set Up Database
+## How to Set Up Database
 
 - Open .env file
 - Set the DB_DATABASE value with your database name
@@ -11,7 +11,7 @@ These Restful APIs are developed using Laravel Framework.
 - Set the DB_PASSWORD value with your mysql password
 - Save and close the file
 
-# How to create schema
+## How to create schema
 
 - Open Your Terminal
 - Go to your project directory
@@ -22,12 +22,12 @@ These Restful APIs are developed using Laravel Framework.
 
 ----
 
-Use these to access APIs endpoints:
+## How to access APIs endpoints:
 
 You need to provide the ```X-API-Key``` in headers with its token value to access following endpoints
 
 
-# Use these endpoints to fetch existing record
+### To fetch existing records
 
 {
 
@@ -90,7 +90,7 @@ You need to provide the ```X-API-Key``` in headers with its token value to acces
 }
 
 
-# Use these endpoints to create new record
+### To create new record
 You also need to provide the data in json format
 
 {
@@ -119,7 +119,7 @@ You also need to provide the data in json format
 
 
 
-# Use these endpoints to update record
+### To update record
 You also need to provide the data in json formate
 
 {
@@ -148,7 +148,7 @@ You also need to provide the data in json formate
 
 
 
-# Use these to delete record
+### To delete record
 
 {
 
@@ -176,7 +176,7 @@ You also need to provide the data in json formate
 
 
 
-# Keys For Pagination
+### Keys For Pagination
 Some responses from endpoints will be in form of pagination so try to use these keys to access its values to move between different pages
 
 {
