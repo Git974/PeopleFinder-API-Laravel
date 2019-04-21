@@ -18,7 +18,7 @@ These Restful APIs are developed using Laravel Framework.
 - run the command ```php artisan migrate```
 - Now you are ready to go!
 
-
+<br>
 
 Use these to access APIs endpoints:
 
