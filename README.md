@@ -154,3 +154,41 @@ You also need to provide the data in json formate
   
 }
 
+
+
+# Keys For Pagination
+Some responses from endpoints will be in form of pagination so try to use these keys to access its values to move between different pages
+
+{
+    
+    "first_page_url" : "It contain the url of first page",
+    
+    "last_page_url" : "It contain the url of last page",
+    
+    "next_page_url" : "It contain the url for next page",
+    
+    "prev_page_url" : "It contain the url for prev page",
+    
+    "total" : "It contain the total number of records",
+    
+    "current_page" : "It contain the current page number",
+    
+    "data" : "It contain the record for the current page"
+
+}
+
+# How to Set Database
+
+- Open .env file
+- Set the DB_DATABASE value with your database name
+- Set the DB_USERNAME value with your mysql username
+- Set the DB_PASSWORD value with your mysql password
+- Save and close the file
+
+# How to create schema
+
+- Open Your Terminal
+- Go to your project directory
+- run the command 'php artisan migrate'
+- Now you are ready to go!
+
