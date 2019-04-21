@@ -19,6 +19,7 @@ These Restful APIs are developed using Laravel Framework.
 - Now you are ready to go!
 
 <br>
+
 ----
 
 Use these to access APIs endpoints:
