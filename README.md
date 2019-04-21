@@ -62,7 +62,6 @@ You need to provide the ```X-API-Key``` in headers with its token value to acces
 You also need to provide the data in json format
 
 -  "Request Type" : "POST"
-
 -    ```api/admins``` : "It will create the admin"    
 -    ```api/users```  : "It will create the user"   
 -    ```api/missingpersons``` : "It will create the missing person"
@@ -76,7 +75,6 @@ You also need to provide the data in json format
 You also need to provide the data in json formate
 
 -  "Request Type" : "PUT"
-
 -    ```api/admins/{id}``` : "It will update the admin record" 
 -   ```api/users/{id}```  : "It will update the user record"
 -   ```api/missingpersons/{id}``` : "It will update the missing person record"    
@@ -88,7 +86,6 @@ You also need to provide the data in json formate
 ### To delete record
 
 -  Request Type : "DELETE"  
-
 -    ```api/admins/{id}``` : "It will delete the admin record"   
 -    ```api/users/{id}```  : "It will delete the user record" 
 -    ```api/missingpersons/{id}``` : "It will delete the missing person record" 
