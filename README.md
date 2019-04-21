@@ -95,7 +95,7 @@ You also need to provide the data in json formate
 -    ```api/personlocations/{id}``` : "It will delete the person location record"
 
 
-### Keys For Pagination
+## Keys For Pagination
 Some responses from endpoints will be in form of pagination so try to use these keys to access its values to move between different pages
     
 -    ```first_page_url``` : "It contain the url of first page"
