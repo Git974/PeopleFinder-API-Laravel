@@ -47,7 +47,7 @@ class User extends Authenticatable
     }
 
     public function search_by_username($username){
-        $users = DB::table('tbl_user')->select('*')->where('username', 'LIKE', "%{$username}%")->get();
+        $users = DB::table('tbl_user')->select('*')->where('username', 'LIKE', "%{$username}%")->paginate(10);
         return $users;
     }
 }

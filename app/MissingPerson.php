@@ -21,7 +21,7 @@ class MissingPerson extends Model
     }
 
     public function search_by_name($name){
-        $missingPersons = DB::table('tbl_missing_person')->select('*')->where('firstName', "{$name}")->get();
+        $missingPersons = DB::table('tbl_missing_person')->select('*')->where('firstName', "{$name}")->paginate(10);
         return $missingPersons;
     }
 
@@ -31,7 +31,7 @@ class MissingPerson extends Model
     }
 
     public function search_by_age($age){
-        $missingPersons = DB::table('tbl_missing_person')->select('*')->where('age', "{$age}")->get();
+        $missingPersons = DB::table('tbl_missing_person')->select('*')->where('age', "{$age}")->paginate(10);
         return $missingPersons;
     }
 }

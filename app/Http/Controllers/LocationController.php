@@ -11,7 +11,7 @@ class LocationController extends Controller
     //
     public function index()
     {
-        return response()->json(Location::get(), 200);
+        return response()->json(Location::paginate(10), 200);
     }
 
     public function show($id)

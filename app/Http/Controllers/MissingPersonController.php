@@ -12,7 +12,7 @@ class MissingPersonController extends Controller
     //
     public function index()
     {
-        return response()->json(MissingPerson::get(), 200);
+        return response()->json(MissingPerson::paginate(10), 200);
     }
 
     public function show($id)

@@ -11,7 +11,7 @@ class NotificationController extends Controller
     //
     public function index()
     {
-        return response()->json(Notification::get(), 200);
+        return response()->json(Notification::paginate(10), 200);
     }
 
     public function show($id)

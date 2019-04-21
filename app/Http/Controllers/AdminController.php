@@ -11,7 +11,7 @@ class AdminController extends Controller
     //
     public function index()
     {
-        return response()->json(Admin::get(), 200);
+        return response()->json(Admin::paginate(10), 200);
     }
 
     public function show($id)
