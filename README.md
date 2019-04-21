@@ -25,24 +25,17 @@ You need to provide the ```X-API-Key``` in headers with its token value to acces
 
 ### To fetch existing records
 
-
-  "Request Type" : "GET",
+-  "Request Type" : "GET"
   
-  "All Records" : {
+#### To Get All Records
   
-    'api/admins' : "It will return all the admins",
-    
-    'api/users'  : "It will return all the users",
-    
-    'api/missingpersons' : "It will return all the missing persons",
-    
-    'api/locations' : "It will return all the locations",
-    
-    'api/notifications' : "It will return all the notifications",
-    
-    'api/images' : "It will return all the images",
-  
-    'api/personlocations' : "It will return all the detected person locations"
+-    ```api/admins``` : "It will return all the admins"   
+-    ```api/users```  : "It will return all the users"
+-    ```api/missingpersons``` : "It will return all the missing persons"
+-    ```api/locations``` : "It will return all the locations"
+-    ```api/notifications``` : "It will return all the notifications"
+-    ```api/images``` : "It will return all the images"
+-    ```api/personlocations``` : "It will return all the detected person locations"
   
 ####  To Get Specific Record
   
@@ -51,18 +44,18 @@ You need to provide the ```X-API-Key``` in headers with its token value to acces
 -    ```api/missingpersons/{id}``` : "It will return all the missing person that would match the id"
 -    ```api/locations/{id}``` : "It will return all the location that would match the id"
 -    ```api/notifications/{id}``` : "It will return all the notification that would match the id"
-=    ```api/images/{id}``` : "It will return all the image that would match the id"
+-    ```api/images/{id}``` : "It will return all the image that would match the id"
 -    ```api/personlocations/{id}``` : "It will return all the detected person location that would match the id"
 
 #### To Search Records
 
--    'api/missingpersons/{id}/personlocations' : "It will return the location where person was detected along with detected time"
--    'api/missingpersons/name/{firstName}' : "It will return all the missing persons that have given first name"
--    'api/missingpersons/cnic/{cnic}' : "It will return the missing person who has given cnic"
--    'api/missingpersons/age/{age}' : "It will return all the missing persons that have given age"
--    'api/missingpersons/{id}/images' : "It will return the image record that is associated with that missing person"
--    'api/users/{id}/notifications' : "It will return all the notifications associated with that user"
--    'api/users/username/{username}' : "It will return user who has given username"
+-    ```api/missingpersons/{id}/personlocations``` : "It will return the location where person was detected along with detected time"
+-    ```api/missingpersons/name/{firstName}``` : "It will return all the missing persons that have given first name"
+-    ```api/missingpersons/cnic/{cnic}``` : "It will return the missing person who has given cnic"
+-    ```api/missingpersons/age/{age}``` : "It will return all the missing persons that have given age"
+-    ```api/missingpersons/{id}/images``` : "It will return the image record that is associated with that missing person"
+-    ```api/users/{id}/notifications``` : "It will return all the notifications associated with that user"
+-    ```api/users/username/{username}``` : "It will return user who has given username"
 
 
 ### To create new record
