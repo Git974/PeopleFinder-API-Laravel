@@ -2,6 +2,24 @@
 
 These Restful APIs are developed using Laravel Framework.
 
+
+# How to Set Up Database
+
+- Open .env file
+- Set the DB_DATABASE value with your database name
+- Set the DB_USERNAME value with your mysql username
+- Set the DB_PASSWORD value with your mysql password
+- Save and close the file
+
+# How to create schema
+
+- Open Your Terminal
+- Go to your project directory
+- run the command ```php artisan migrate```
+- Now you are ready to go!
+
+
+
 Use these to access APIs endpoints:
 
 You need to provide the ```X-API-Key``` in headers with its token value to access following endpoints
@@ -176,19 +194,4 @@ Some responses from endpoints will be in form of pagination so try to use these 
     "data" : "It contain the record for the current page"
 
 }
-
-# How to Set Database
-
-- Open .env file
-- Set the DB_DATABASE value with your database name
-- Set the DB_USERNAME value with your mysql username
-- Set the DB_PASSWORD value with your mysql password
-- Save and close the file
-
-# How to create schema
-
-- Open Your Terminal
-- Go to your project directory
-- run the command ```php artisan migrate```
-- Now you are ready to go!
 
