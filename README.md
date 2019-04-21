@@ -18,10 +18,6 @@ These Restful APIs are developed using Laravel Framework.
 - run the command ```php artisan migrate```
 - Now you are ready to go!
 
-<br>
-
-----
-
 ## How to access APIs endpoints:
 
 You need to provide the ```X-API-Key``` in headers with its token value to access following endpoints
