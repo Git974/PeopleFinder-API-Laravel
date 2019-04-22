@@ -112,4 +112,13 @@ Some responses from endpoints will be in form of pagination so try to use these 
 -    ```current_page``` : "It contain the current page number"   
 -    ```data``` : "It contain the record for the current page"
 
+## Contributors
+
+Shoaib Ahmad Siddiqui, Software Engineer
+
+## License & Copyright
+
+Licensed under MIT License.
+
+
 
