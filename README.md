@@ -20,7 +20,7 @@ These Restful APIs are developed using Laravel Framework.
 ## How to create schema in Database
 
 - Open Your Terminal
-- Go to your project directory
+- Navigate to your project directory
 - run the command ```php artisan migrate```
 - Now you are ready to go!
 
