@@ -118,7 +118,7 @@ Shoaib Ahmad Siddiqui, Software Engineer
 
 ## License & Copyright
 
-Licensed under MIT License.
+Licensed under MIT License (LICENSE).
 
 
 
