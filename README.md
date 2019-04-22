@@ -5,7 +5,7 @@ These Restful APIs are developed using Laravel Framework.
 # How to download the repository
 
 - If you are using XAMPP Server on your system, open your htdocs folder and create the empty directory for project
-- Open your terminal navigate to that directory
+- Open your terminal, then navigate to that directory
 - Run the command ```git clone repository-link .```
 - To make sure everything is installed run the command ```composer install```
 
