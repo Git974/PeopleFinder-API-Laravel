@@ -1,5 +1,5 @@
 # PeopleFinder APIs in Laravel
-
+Dccd
 These Restful APIs are developed using Laravel Framework.
 
 # How to download the repository
@@ -23,6 +23,13 @@ These Restful APIs are developed using Laravel Framework.
 - Navigate to your project directory
 - run the command ```php artisan migrate```
 - Now you are ready to go!
+
+## How to run the run the APIs
+
+- Open your terminal and run the command ```php artisan serve```
+- It will give url address on the screen where the application is running
+- e.g. Open Postman type the url 'http:\\localhost:8000\api\users'
+
 
 ## How to access APIs endpoints:
 
