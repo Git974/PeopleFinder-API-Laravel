@@ -12,9 +12,9 @@ These Restful APIs are developed using Laravel Framework.
 ## How to Connect Database
 
 - Open .env file
-- Set the DB_DATABASE value with your database name
-- Set the DB_USERNAME value with your mysql username
-- Set the DB_PASSWORD value with your mysql password
+- Set the ```DB_DATABASE``` value with your database name
+- Set the ```DB_USERNAME``` value with your mysql username
+- Set the ```DB_PASSWORD``` value with your mysql password
 - Save and close the file
 
 ## How to create schema in Database
